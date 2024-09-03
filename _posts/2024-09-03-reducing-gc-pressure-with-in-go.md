@@ -96,7 +96,7 @@ This is a silly example, but it demonstrates simply how `sync.Pool` can be used.
 ![OS Memory](/assets/img/posts/2024-09-03-reducing-gc-pressure-with-in-go/os-mem-dark.png){: .dark}
 _Memory layout in the OS_
 
-In the operating system level, each process (represeing a running program) has its own memory space. Each process has its own memory space, which is divided into several segments like the stack, heap, text, and data segments.
+In the operating system level, each process (representing a running program) has its own memory space. Each process has its own memory space, which is divided into several segments like the stack, heap, text, and data segments.
 
 These segments are tracked in the Process Control Block (PCB) of the process.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to reduce garbase collection pressure in Go?
+title: How to reduce garbage collection pressure in Go?
 description: Object pooling with sync.Pool in Go
 date: 2024-09-03 21:38 +0800
 categories: [go, performance]

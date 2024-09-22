@@ -2,17 +2,8 @@
 layout: post
 title: Quick Bytes - Running C++ in Go
 description: How to run C++ code in Go using swig
-categories:
-  - quick bytes
-  - go
-tags:
-  - go
-  - c++
-  - swig
-date: 2024-09-22 14:21 +0800
-image:
-  path: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg
-  no_bg: true
+categories: [quick bytes, go]
+tags: [go, c++, swig]
 ---
 
 ## Background
@@ -37,7 +28,7 @@ In MacOS, you can install SWIG using Homebrew:
 brew install swig
 ```
 
-In Ubuntu/Debian based systems, you can install SWIG using apt:
+In Ubuntu/Debain based systems, you can install SWIG using apt:
 
 ```bash
 sudo apt-get update
@@ -56,7 +47,7 @@ However, only caveat is that the code is generated in the Go complier's working 
 
 ## Example
 
-A sample project can be found [here](https://github.com/sivayogasubramanian/swig). It follows the video project structure albeit with a classic factorial function.
+A sample project can be found [here](https://github.com/sivayogasubramanian/swig).
 
 ### Steps
 
@@ -67,5 +58,3 @@ A sample project can be found [here](https://github.com/sivayogasubramanian/swig
 1. Run `go run main.go`
 
 ## References
-
-{% include embed/youtube.html id='zICiFQy1NS8' %}
